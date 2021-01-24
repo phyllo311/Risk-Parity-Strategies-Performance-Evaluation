@@ -1,20 +1,3 @@
-# Load libraries
-#install.packages("fBasics")
-#install.packages("dplyr")
-#install.packages("ggplot2")
-#install.packages("ggthemes")
-#install.packages("lubridate")
-#install.packages("readr")
-#install.packages("tidyr")
-#install.packages("lmtest")
-#install.packages("sandwich")
-#install.packages("nloptr")
-#install.packages("systemfit")
-#install.packages("pracma")
-#install.packages("xlsx")
-#install.packages("tidyverse")
-
-
 library(xlsx)
 library(fBasics)
 library(dplyr)
