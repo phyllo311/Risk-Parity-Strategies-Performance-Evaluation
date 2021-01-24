@@ -1,2 +1,2 @@
 # Risk Parity Strategies' Performance
- Testing the Risk Parity
+Rolling window backtest for the naïve Risk Parity, Maximum Diversification, Risk Budget, Diversified Risk Parity, and Factor Risk Parity against prominent benchmarks Equal Weight and Minimum Variance
