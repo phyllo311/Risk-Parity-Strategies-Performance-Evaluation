@@ -163,34 +163,3 @@ summary_RB<-data.frame(
   ekurtosis = moments::kurtosis(R_RB) - 3, 
   VaR = PerformanceAnalytics::VaR(R_RB, .99, method = 'historical') 
 ) 
-# Comparing Portfolios
-# summary stats (mean excess return, volatility, skewness, kurtosis)
-# risk -return measures:
-# Sharpe ratio w t-value, p-value from robustness tests
-# Risk measures: Information Ratio, VAR, Expected Shortfall, Max Drawdown
-
-
-
-
-#Backtest using 60 month rolling window
-#result: plot of cumulative returns of portfolios
-
-
-
-
-#Overfitting backtest: 
-#Probability of Backtest Overfitting
-#Haircutting Sharpe Ratios using Holm tests and Bonferroni tests
-
-
-
-#Analysing factor exposures: OLS factor regression model . Carhart factors, Volatility, Quality
-
-
-
-# Measure diversification: Gini Coef, time varying weights
-
-
-#Leverage portfolio
-
-
